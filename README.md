@@ -1,4 +1,4 @@
-# gitlist
+# GitList
 Simple github api test
  - User can enter github username and script connects to github API https://developer.github.com/v3/ and prints list of username's public repositories
  - Each search is logged to database, searches can be reviewed
@@ -8,6 +8,7 @@ Requirements:
 PHP version > 5.4.4 (can be reduced if older version of Dibi library is used)
 MySQL database
 cURL enabled http://php.net/manual/en/book.curl.php - must allow connection to HTTPS secured servers
+session enabled
 
 Installation / Configuration
 SQL script for creating required table is in _db.sql file
